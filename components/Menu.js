@@ -52,7 +52,7 @@ function menuMaker(arr) {
   const menuBtn = document.querySelector(".menu-button");
 
   menuBtn.addEventListener('click', function(event){
-    event.target.classList.toggle("menu--open"); 
+    div.classList.toggle("menu--open"); 
     header.prepend(div);
   });
   return div;
